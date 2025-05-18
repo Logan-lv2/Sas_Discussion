@@ -1,0 +1,33 @@
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+header, footer {
+    background-color: #1e1e1e;
+}
+
+#themeToggle {
+    background-color: #0d47a1;
+    color: white;
+}
+
+.auth-form {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+}
+
+.form-group input {
+    background-color: #2d2d2d;
+    color: #e0e0e0;
+    border-color: #444;
+}
+
+button[type="submit"] {
+    background-color: #0d47a1;
+    color: white;
+}
+
+a {
+    color: #64b5f6;
+}
