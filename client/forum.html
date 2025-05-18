@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sas_Discussion - Forum</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link id="theme" rel="stylesheet" href="css/theme-dark.css">
+</head>
+<body>
+    <header>
+        <h1>Sas_Discussion</h1>
+        <nav>
+            <a href="profil.html">Profil</a>
+            <button id="themeToggle">Thème Light</button>
+            <button id="logoutBtn">Déconnexion</button>
+        </nav>
+    </header>
+    
+    <main class="forum-container">
+        <aside class="categories">
+            <h2>Catégories</h2>
+            <ul>
+                <li class="active">Général</li>
+                <li>Technologie</li>
+                <li>Divertissement</li>
+                <li>Actualités</li>
+            </ul>
+        </aside>
+        
+        <section class="discussions">
+            <div class="new-post">
+                <textarea placeholder="Quoi de neuf?"></textarea>
+                <button>Poster</button>
+            </div>
+            
+            <div class="posts">
+                <!-- Les posts apparaîtront ici -->
+                <div class="post">
+                    <div class="post-header">
+                        <span class="username">Anonyme_123</span>
+                        <span class="post-time">Il y a 2 heures</span>
+                    </div>
+                    <div class="post-content">
+                        <p>Salut à tous! Bienvenue sur Sas_Discussion où votre anonymat est préservé.</p>
+                    </div>
+                    <div class="post-actions">
+                        <button>Répondre</button>
+                        <button>Like (0)</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Discussion anonyme - Tous droits réservés</p>
+    </footer>
+    
+    <script src="js/main.js"></script>
+    <script src="js/theme-switcher.js"></script>
+</body>
+</html>

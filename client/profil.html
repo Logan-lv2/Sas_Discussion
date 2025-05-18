@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sas_Discussion - Profil</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link id="theme" rel="stylesheet" href="css/theme-dark.css">
+</head>
+<body>
+    <header>
+        <h1>Sas_Discussion</h1>
+        <nav>
+            <a href="forum.html">Forum</a>
+            <button id="themeToggle">Thème Light</button>
+            <button id="logoutBtn">Déconnexion</button>
+        </nav>
+    </header>
+    
+    <main class="profile-container">
+        <h2>Paramètres du profil</h2>
+        
+        <div class="profile-section">
+            <h3>Identité anonyme</h3>
+            <p>Votre pseudo actuel: <strong>Anonyme_<span id="userCode">X7F9K2</span></strong></p>
+            <button id="changePseudo">Changer de pseudo</button>
+            <small>Votre nouveau pseudo sera généré aléatoirement</small>
+        </div>
+        
+        <div class="profile-section">
+            <h3>Sécurité</h3>
+            <form id="changePasswordForm">
+                <div class="form-group">
+                    <label for="currentPassword">Mot de passe actuel</label>
+                    <input type="password" id="currentPassword" required>
+                </div>
+                <div class="form-group">
+                    <label for="newPassword">Nouveau mot de passe</label>
+                    <input type="password" id="newPassword" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirmNewPassword">Confirmez le nouveau mot de passe</label>
+                    <input type="password" id="confirmNewPassword" required>
+                </div>
+                <button type="submit">Changer le mot de passe</button>
+            </form>
+        </div>
+        
+        <div class="profile-section danger-zone">
+            <h3>Zone dangereuse</h3>
+            <button id="deleteAccount">Supprimer le compte</button>
+            <small>Cette action est irréversible et supprimera tous vos messages</small>
+        </div>
+    </main>
+    
+    <footer>
+        <p>Discussion anonyme - Tous droits réservés</p>
+    </footer>
+    
+    <script src="js/main.js"></script>
+    <script src="js/theme-switcher.js"></script>
+    <script src="js/profile.js"></script>
+</body>
+</html>

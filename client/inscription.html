@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sas_Discussion - Inscription</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link id="theme" rel="stylesheet" href="css/theme-dark.css">
+</head>
+<body>
+    <header>
+        <h1>Sas_Discussion</h1>
+        <button id="themeToggle">Thème Light</button>
+    </header>
+    
+    <main class="auth-container">
+        <div class="auth-form">
+            <h2>Inscription</h2>
+            <form id="registerForm">
+                <div class="form-group">
+                    <label for="regUsername">Choisissez un pseudo</label>
+                    <input type="text" id="regUsername" required>
+                    <small>Votre vrai nom ne sera pas divulgué</small>
+                </div>
+                <div class="form-group">
+                    <label for="regPassword">Mot de passe</label>
+                    <input type="password" id="regPassword" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirmPassword">Confirmez le mot de passe</label>
+                    <input type="password" id="confirmPassword" required>
+                </div>
+                <button type="submit">S'inscrire</button>
+            </form>
+            <p>Déjà inscrit? <a href="index.html">Se connecter</a></p>
+        </div>
+    </main>
+    
+    <footer>
+        <p>Discussion anonyme - Tous droits réservés</p>
+    </footer>
+    
+    <script src="js/main.js"></script>
+    <script src="js/theme-switcher.js"></script>
+</body>
+</html>
